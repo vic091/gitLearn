@@ -3,5 +3,5 @@ package main
 import "fmt"
 
 func learn2() {
-	fmt.Println("learn2==12")
+	fmt.Println("learn2==13")
 }
