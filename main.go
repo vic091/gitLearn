@@ -9,3 +9,8 @@ func main() {
 
 	fmt.Println("hello learn2 ")
 }
+
+func Get() {
+
+	fmt.Println("get ... ")
+}
