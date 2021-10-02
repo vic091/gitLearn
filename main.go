@@ -14,5 +14,5 @@ func Get() {
 
 	fmt.Println("get ... ")
 
-	fmt.Println("main====6")
+	fmt.Println("main====7")
 }
