@@ -13,4 +13,6 @@ func main() {
 func Get() {
 
 	fmt.Println("get ... ")
+
+	fmt.Println("main====1")
 }
