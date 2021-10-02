@@ -1,5 +1,7 @@
 package main
 
-func learn1() {
+import "fmt"
 
+func learn1() {
+	fmt.Println("learn1 === 10")
 }
