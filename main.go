@@ -24,6 +24,6 @@ func main() {
 	//	Age:       30,
 	//}
 	a := []int{12, 3, 4, 5}
-	b := funk.ContainsInt(a, 5)
+	b := funk.ContainsInt(a, 6)
 	fmt.Println(b)
 }
