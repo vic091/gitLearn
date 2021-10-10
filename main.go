@@ -1,18 +1,29 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"github.com/thoas/go-funk"
+)
 
-func main() {
-	fmt.Println("hello word4")
-	fmt.Println("hello dev")
-	fmt.Println("hello learn1== 4")
+//type Foo struct {
+//	ID        int
+//	FirstName string `tag_name:"tag 1"`
+//	LastName  string `tag_name:"tag 2"`
+//	Age       int    `tag_name:"tag 3"`
+//}
 
-	fmt.Println("hello learn2 ")
+func (f Foo) TableName() string {
+	return "foo"
 }
 
-func Get() {
-
-	fmt.Println("get ... ")
-
-	fmt.Println("main====13")
+func main() {
+	//f := &Foo{
+	//	ID:        1,
+	//	FirstName: "Foo",
+	//	LastName:  "Bar",
+	//	Age:       30,
+	//}
+	a := []int{12, 3, 4, 5}
+	b := funk.ContainsInt(a, 5)
+	fmt.Println(b)
 }
